@@ -36,4 +36,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=HoangPhan10_easybuggy4sb_3a4418bc-c266-49cc-a738-1f4538fa82fc -Dsonar.projectName='easybuggy4sb'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar -Dsonar.projectKey=HoangPhan10_easybuggy4sb_3a4418bc-c266-49cc-a738-1f4538fa82fc -Dsonar.projectName='easybuggy4sb'
